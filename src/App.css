@@ -1,0 +1,44 @@
+:root{
+    --a:#eae7DC;
+    --b:#d8c3a5;
+    --c:#8e8d8a;
+    --d:#e98074;
+    --e:#e85a4f;
+    --maindark:#232528;
+}
+body{
+  font-family: 'Montserrat', sans-serif !important;
+  background:var(--a) !important;
+  color:var(--maindark) !important;
+}
+.text-title{
+  font-family: 'Rubik Mono One', sans-serif ;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color: var(--e);
+}
+.text-bright{
+  color:var(--b);
+}
+.bg-blue{
+  background: var(--e);
+}
+.btn-black{
+  background:transparent;
+  text-transform: capitalize;
+  font-size:0.8rem !important;
+  color:var(--maindark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--maindark) !important;
+}
+.btn-black:hover{
+  background-color: var(--maindark) !important;
+  color:var(--a) !important; 
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--d);
+}
