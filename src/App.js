@@ -8,6 +8,7 @@ import Details from "./components/Details";
 import Cart from "./components/cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import Landing from "./components/Landing";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         sure it is displayed on each and every page */}
         <Switch>
           <Route exact path="/" component={ProductList} />
+          <Route path="/home" component={Landing} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />

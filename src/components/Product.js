@@ -17,7 +17,7 @@ export default class Product extends Component {
                 onClick={() => value.handleDetail(id)}
               >
                 <Link to="/details">
-                  <img src={img} alt="product" className="card-img-top" />
+                  <img src={img} alt="product" className="card-img-top" height="150px" />
                 </Link>
                 <button
                   className="cart-btn"
@@ -42,7 +42,7 @@ export default class Product extends Component {
           <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">{title}</p>
             <h5 className="text-blue font-italic mb-0">
-              <span className="mr-1">$</span>
+              <span className="mr-1">₹</span>
               {price}
             </h5>
           </div>
@@ -94,7 +94,7 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background: var(--d);
+    background: var(--f);
     border: none;
     color: var(--a);
     font-size: 1.4rem;
@@ -106,7 +106,9 @@ const ProductWrapper = styled.div`
     transform: translate(0%, 0%);
   }
   .cart-btn:hover {
-    color: var(--mainDark);
+    color: var(--f);
     cursor: pointer;
+    border:0.5px solid var(--f);
+    background:var(--a);
   }
 `;

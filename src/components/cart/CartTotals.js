@@ -22,19 +22,19 @@ export default function CartTotals({ value,history }) {
                 <span className="text-title">
                     subtotal :
                 </span>
-                <strong>${cartSubTotal}</strong>
+                <strong>₹ {cartSubTotal}</strong>
             </h5>
             <h5>
                 <span className="text-title">
                     Tax :
                 </span>
-                <strong>${cartTax}</strong>
+                <strong>₹ {cartTax}</strong>
             </h5>
             <h5>
                 <span className="text-title">
                     cart total :
                 </span>
-                <strong>${cartTotal}</strong>
+                <strong>₹ {cartTotal}</strong>
             </h5>
             <Paypal total={cartTotal} clearCart={clearCart} history={history}/>
           </div>

@@ -1,96 +1,90 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
+    title: "White Corrugated Boxes ",
     img: "img/product-1.png",
-    price: 10,
-    company: "GOOGLE",
+    price: 275,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Used for shipping and storage of cubic, round or odd shaped medium,large and heavy items. Larger boxes from warehouse stores, supermarkets, or the office are perfect for packing and moving. Smaller boxes are great as disposable toy blocks ",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 2,
-    title: "Samsung S7",
+    title: "Brown Flat Boxes",
     img: "img/product-2.png",
-    price: 16,
-    company: "SAMSUNG",
+    price: 130,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Larger boxes of our sizes are perfect for packing and moving. Used for shipping and storage of cubic, round or odd shaped medium,large and heavy items. Easy to use and convenient to ship",
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
+  }, {
     id: 3,
-    title: "HTC 10 - Black",
+    title: "Triangular White Corrugated Box",
     img: "img/product-3.png",
-    price: 8,
-    company: "htc",
+    price: 185,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Superlative kraft paper used.Isosceles Triangle dimension 3 ply white corrugated box with two side opening White duplex paper of 230 GSM, Semi kraft paper of 120 GSM & kraft paper of 180 GSM ",
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
+  }, {
     id: 4,
-    title: "HTC 10 - White",
+    title: "5, 7 Ply Brown Cube Box ",
     img: "img/product-4.png",
-    price: 18,
-    company: "htc",
+    price: 335,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Used for shipping and storage of cubic, round or odd shaped medium, large and heavy items.Boxes of these sizes are perfect for packing and moving. Easy to use and convenient to ship",
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
+  }, {
     id: 5,
-    title: "HTC Desire 626s",
+    title: "Prime Boxes",
     img: "img/product-5.png",
-    price: 24,
-    company: "htc",
+    price: 465,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Used for shipping and storage of cubic, round or odd shaped medium, large and heavy size items.Larger boxes from warehouse stores, supermarkets, or the office are perfect for packing and moving .Easy to use and convenient to ship",
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
+  }, {
     id: 6,
-    title: "Vintage Iphone",
+    title: "Heavy Duty Boxes",
     img: "img/product-6.png",
-    price: 17,
-    company: "apple",
+    price: 452,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Used for shipping and storage of cubic, round or odd shaped medium, large and heavy items. Larger boxes from warehouse stores, supermarkets, or the office are perfect for packing and moving. Smaller boxes are great as disposable toy blocks",
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
+  }, {
     id: 7,
-    title: "Iphone 7",
+    title: "White Reverse Tuck In Box",
     img: "img/product-7.png",
-    price: 30,
-    company: "apple",
+    price: 443,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Used for shipping and storage of items of all sizes. Easy to use and convenient to ship",
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
+  }, {
     id: 8,
-    title: "Smashed Iphone",
+    title: "3 Ply Brown Cube Box",
     img: "img/product-8.png",
-    price: 2,
-    company: "apple",
+    price: 160,
+    company: "KP",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Used for shipping and storage of cubic, round or odd shaped medium,large and heavy items. Boxes of these sizes are perfect for packing and moving. Easy to use and convenient to ship",
     inCart: false,
     count: 0,
     total: 0
@@ -99,12 +93,12 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Google Pixel - Black",
+  title: "White Corrugated Boxes ",
   img: "img/product-1.png",
-  price: 10,
-  company: "google",
+  price: 275,
+  company: "KP",
   info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "Used for shipping and storage of cubic, round or odd shaped medium,large and heavy items. Larger boxes from warehouse stores, supermarkets, or the office are perfect for packing and moving. Smaller boxes are great as disposable toy blocks ",
   inCart: false,
   count: 0,
   total: 0

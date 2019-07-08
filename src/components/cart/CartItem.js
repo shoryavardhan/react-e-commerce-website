@@ -50,7 +50,7 @@ export default function CartItem({ item, value }) {
         </div>
         {/* // col no. 6 */}
         <div className="col-10 mx-auto col-lg-2">
-          <strong>item total: $</strong>
+          <strong>item total: ₹ </strong>
           {total}
         </div>
       </div>

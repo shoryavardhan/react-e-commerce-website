@@ -27,7 +27,7 @@ export default class Details extends Component {
               {/* product info */}
               <div className="row">
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                  <img src={img} className="img-fluid" alt="product" />
+                  <img src={img} className="img" alt="product"  height ="360px"/>
                 </div>
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                   <h2>model: {title}</h2>
@@ -36,7 +36,7 @@ export default class Details extends Component {
                   </h4>
                   <h4 className="text-blue">
                     <strong>
-                      price:<span>$</span>
+                      price:<span> ₹ </span>
                       {price}
                     </strong>
                   </h4>
@@ -46,7 +46,7 @@ export default class Details extends Component {
                   <p className="text-muted lead">{info}</p>
                   <div>
                     <Link to="/">
-                      <ButtonContainer>back to products</ButtonContainer>
+                      <ButtonContainer cart>back to products</ButtonContainer>
                     </Link>
                     <ButtonContainer
                       cart

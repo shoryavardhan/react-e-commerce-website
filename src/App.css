@@ -1,9 +1,10 @@
 :root{
-    --a:#eae7DC;
-    --b:#d8c3a5;
-    --c:#8e8d8a;
-    --d:#e98074;
-    --e:#e85a4f;
+    --a:#EEEEFF;
+    --d:#7F7CAF;
+    --c:#9FB4C7;
+    --b:#28587B;
+    --e:#9FB798;
+    --f:rgb(58, 66, 55);
     --maindark:#232528;
 }
 body{
@@ -12,15 +13,18 @@ body{
   color:var(--maindark) !important;
 }
 .text-title{
-  font-family: 'Rubik Mono One', sans-serif ;
+  font-family: 'Bitter', serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
+.filter{
+filter: invert(85%) sepia(16%) saturate(394%) hue-rotate(169deg) brightness(82%) contrast(89%);
+}
 .text-blue{
-  color: var(--e);
+  color: var(--b);
 }
 .text-bright{
-  color:var(--b);
+  color:var(--maindark);
 }
 .bg-blue{
   background: var(--e);
